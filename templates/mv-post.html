@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+Actuary!
+
+{% endblock %}
+
+
+{% block login %}
+
+<a class="login-link" href="/">home</a>
+
+{% endblock %}
+
+
+{% block heading %}
+
+You are about to post this Actuarize page to Facebook
+
+{% endblock %}
+{% block content %}
+
+<form method="post">
+
+	<h3>Say something about it:</h3>
+	<input type="text" name="message" value="I've been Actuarized!">
+	<br />
+	<br />
+	<input class="button" type="submit" value="Post to Facebook!">
+
+</form>
+
+{% endblock %}
+

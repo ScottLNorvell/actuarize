@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link  rel="stylesheet" type="text/css"
+		href="/stylesheets/main.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		
+		<title> Get Me Actuarized! </title>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+
+		<script src="/scripts/fbinit.js"></script>
+		
+		<div id="fblogin">
+			<h2>Post this page to Facebook!</h2>
+			<p>You must log in and accept the permissions to use this feature.</p>
+			<button class="fbloginbutt" onclick="login('{{url}}')">Post to Facebook!</button>
+			
+		</div>
+	</body>
+</html>

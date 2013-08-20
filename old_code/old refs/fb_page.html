@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+FB TEST!
+{% endblock %}
+
+
+{% block heading %}
+Facebook Page Tester!
+{% endblock %}
+{% block content %}
+
+{% for fbid in fbids %}
+
+<img src="https://graph.facebook.com/{{fbid}}/picture"/>
+{% endfor %}
+{% endblock %}
+
+

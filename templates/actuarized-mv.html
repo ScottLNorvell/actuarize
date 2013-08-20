@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block style %}
+
+<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+{% endblock %}
+
+{% block script %}
+
+<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/scripts/actu_fb.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+{{movie_title}} has been Actuarized!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/tmdb-form">Again!</a> | <a class="login-link" href="/">Home</a> | <a class="login-link" href="/fbactuarized">Actuarize Facebook</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<h3 class="hasbeen" >{{movie_title}}</h3>
+	<h3 class="hasbeen">has been</h3>
+	<div id='imholder'>
+		<a href="/" ><img id="logo-img" title="Try it Yourself!" src="/images/actuarized_logo.png" /></a>
+	</div>
+	<br>
+	<a href="http://www.themoviedb.org/movie/{{movie_id}}" target="_blank"><img class="movieposter" src="{{poster}}"></a>
+	<br>
+	<br>
+	<div id="tabs">
+		<ul>
+			<li>
+				<a href="#actutab">Actuarized!</a>
+			</li>
+			<li>
+				<a href="/actu-graph">Sweet Graphs!</a>
+				<span class="probany" href="/actuary-api?prob=any&{{age_url}}"></span>
+				<span class="proball" href="/actuary-api?prob=all&{{age_url}}"></span>
+			</li>
+
+			<li>
+				<a href="#dial">More Fun!</a>
+				<span class="probs" href="/actu-slider?{{age_url}}&years="></span>
+			</li>
+			<li>
+				<a href="#facebook">Post to Facebook!</a>
+			</li>
+		</ul>
+		<div id="actutab">
+
+			<div class="actutext">
+				<h2>We were able to analyze {{num}} people in the cast:</h2>
+				{% if dead %}
+				<p>
+					These people are already dead:
+				</p>
+				<div id="gallery">
+					<ul>
+						{% for name,pic_small,pic_big,id in dead %}
+						<li>
+							<a href="{{pic_big}}" rel="prettyPhoto[gallery1]" title="Learn more about &lt;a href=&#x27;http://www.themoviedb.org/person/{{id}}&#x27; target=&#x27;_blank&#x27; &gt;{{name}}&lt;/a&gt;!" ><img src="{{pic_small}}"  alt="{{name}}" title="{{name}}" /></a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<p>
+					Here is the actuarized data for the living actors:
+				</p>
+				{% endif %}
+
+				<div id="gallery">
+					<ul>
+						{% for name,pic_small,pic_big,id in alive %}
+						<li>
+							<a href="{{pic_big}}" rel="prettyPhoto[gallery2]" title="Learn more about &lt;a href=&#x27;http://www.themoviedb.org/person/{{id}}&#x27; target=&#x27;_blank&#x27; &gt;{{name}}&lt;/a&gt;!" ><img src="{{pic_small}}"  alt="{{name}}" title="{{name}}" /></a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<p>
+					There is a 5% chance that one of these people will die within {{sy05}} years (by {{sd05}}).
+				</p>
+				<p>
+					There is a 50% chance that someone will die within {{sy50}} years (by {{sd50}}).
+				</p>
+				<p>
+					By {{sd95}}*, there is a great chance (95%) that someone will be dead.
+				</p>
+				<p class="actucomment">
+					*That's {{sy95}} years away.
+				</p>
+				<br />
+				{% if ey05 %}
+
+				<p>
+					There is a 5%  chance that all of the actors will be dead within {{ey05}} years (by {{ed05}}).
+				</p>
+				<p>
+					There is a 50% chance that everyone will die within {{ey50}} years (by {{ed50}}).
+				</p>
+				<p>
+					By {{ed95}}*, there is a great chance (95%) that everyone will be dead.
+				</p>
+				<p class="actucomment">
+					*That's {{ey95}} years away.
+				</p>
+				<br />
+				{% endif %}
+
+				<p>
+					Will these actors live see the <a class="login-link" href="http://en.wikipedia.org/wiki/Technological_singularity" target="_blank">Singularity</a>?
+				</p>
+				{% if evprintable %}
+				<p>
+					Probability of all dying by 2045: {{evprintable}}%
+				</p>
+				{% endif %}
+				<p>
+					Probability of a death by 2045: {{smprintable}}%
+				</p>
+
+				<br />
+				<div class="powered">
+					Powered By:
+				</div>
+				<a href="http://www.themoviedb.org/" target="_blank"><img class="movieposter" src="http://d3a8mw37cqal2z.cloudfront.net/assets/619c6e3db1177/images/tmdb-logo.png"></a>
+
+			</div>
+		</div>
+		<div id="dial">
+			<h3>Have a lot of fun playing with this slider!</h3>
+
+			<p>
+				<label for="amount">Number of Years:</label>
+				<input type="text" id="amount" />
+			</p>
+
+			<div id="slider"></div>
+
+			<br>
+
+			<div id="slider-results"></div>
+
+		</div>
+		<div id="facebook">
+			<h3>Tell Your Friends on Facebook!</h3>
+			<p>
+				Did you enjoy the actuarization process for <em>{{movie_title}}</em>? Spread the actuarize love! Let your friends actuarize THEIR favorite movies! Let them actuarize YOU!
+			</p>
+			<a class="button" id="button" href="{{post_url}}">Do It!</a>
+		</div>
+
+	</div>
+	<div class="actudisclaim">
+		<p>
+			This website is for entertainment purposes only and does not produce highly-scientific results.
+			The analysis is based on the script
+			<a href="http://blog.xkcd.com/2012/07/12/a-morbid-python-script/" target="_blank">actuary.py</a>
+			from the geniuses at
+			<a href="http://xkcd.com/" target="_blank">xkcd</a>.
+			It simply estimates probability of mortality based on standard actuarial tables for cast members whose
+			profiles contain full birthdates (with year). Don't see one of your favorite actors?
+			Head over to <a href="http://www.themoviedb.org/" target="_blank">themoviedb.org</a> and add their info.
+			In order for the script to work, the actor's profile needs a bio, birthdate, and date of death (if applicable).
+			Many factors can change any person's expected lifespan, including
+			individual health factors, lifestyle and personal genetic makeup. Morbid, maybe. Based on science, sure. But, in general,
+			this is for fun and the analytical rigor is low. Besides, none of this matters if you plan to
+			<a href="http://en.wikipedia.org/wiki/Technological_singularity">live past 2045</a>.
+			Learn more about actuarial/life tables
+			<a href="http://en.wikipedia.org/wiki/Life_table" target="_blank">here</a>.
+		</p>
+	</div>
+</div>
+
+{% endblock %}

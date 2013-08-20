@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<script src="/scripts/actu_movie.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+Actuary!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/">Home</a>
+|
+<a class="login-link" href="/fbactuarized">Actuarize Facebook</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+{% block content %}
+<div class="main-content">
+	<div id="holder">
+		<form method="post">
+			<div id='imholder'>
+				<img id="logo-img" src="/images/actuarize_logo.png" />
+			</div>
+			<h3 class="hasbeen">your movies!</h3>
+			<br>
+			<br />
+
+			<h3 class="sayit">Enter the title of a Movie:</h3>
+			<br>
+			<input type="text" id="movieName" name="moviestr">
+			<input type="hidden" id="movieYear" name="year" value="">
+			<input type="hidden" id="movieId" name="movie_id" value="">
+			<br />
+			<br />
+			<input class="button" type="submit" value="Check">
+
+		</form>
+	</div>
+</div>
+<div id="lightbox-holder"></div>
+
+{% endblock %}
+

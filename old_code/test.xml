@@ -1,0 +1,1672 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:ns2="http://gdata.youtube.com/schemas/2007" xmlns:ns3="http://schemas.google.com/g/2005" xmlns:ns4="http://search.yahoo.com/mrss/" xmlns:ns5="http://purl.org/atom/app#">
+	<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+	<ns0:id>http://gdata.youtube.com/feeds/api/standardfeeds/top_rated</ns0:id>
+	<ns0:generator uri="http://gdata.youtube.com" version="2.1">YouTube data API</ns0:generator>
+	<ns1:startIndex>1</ns1:startIndex>
+	<ns0:logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</ns0:logo>
+	<ns0:title type="text">Top Rated</ns0:title>
+	<ns0:author>
+		<ns0:name>YouTube</ns0:name>
+		<ns0:uri>http://www.youtube.com/</ns0:uri>
+	</ns0:author>
+	<ns0:link href="https://www.youtube.com/channel/HCWKQJPHqP4J0" rel="alternate" type="text/html" />
+	<ns0:link href="https://gdata.youtube.com/feeds/api/standardfeeds/top_rated" rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" />
+	<ns0:link href="https://gdata.youtube.com/feeds/api/standardfeeds/top_rated/batch" rel="http://schemas.google.com/g/2005#batch" type="application/atom+xml" />
+	<ns0:link href="https://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=1&amp;max-results=25" rel="self" type="application/atom+xml" />
+	<ns0:link href="https://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=26&amp;max-results=25" rel="next" type="application/atom+xml" />
+	<ns0:updated>2013-03-15T18:40:01.699Z</ns0:updated>
+	<ns1:totalResults>154</ns1:totalResults>
+	<ns1:itemsPerPage>25</ns1:itemsPerPage>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="209567815" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Comedy" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg</ns0:id>
+		<ns0:author>
+			<ns0:name>judsonlaipply</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/judsonlaipply</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/dMH0bHeiRNg?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:16:04.000Z</ns0:updated>
+		<ns0:published>2006-04-06T21:30:53.000Z</ns0:published>
+		<ns3:rating average="4.7038403" max="5" min="1" numRaters="994652" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="591160" href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">For more visit http://www.mightaswelldance.com</ns4:description>
+			<ns4:title type="plain">Evolution of Dance - By Judson Laipply</ns4:title>
+			<ns2:duration seconds="360" />
+			<ns4:content duration="360" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/dMH0bHeiRNg?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="360" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache1.c.youtube.com/CkcLENy73wIaPgnYRKJ3bPTBdBMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="360" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache1.c.youtube.com/CkcLENy73wIaPgnYRKJ3bPTBdBMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="judsonlaipply">judsonlaipply</ns4:credit>
+			<ns4:thumbnail height="360" time="00:03:00" url="http://i.ytimg.com/vi/dMH0bHeiRNg/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:30" url="http://i.ytimg.com/vi/dMH0bHeiRNg/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:00" url="http://i.ytimg.com/vi/dMH0bHeiRNg/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:04:30" url="http://i.ytimg.com/vi/dMH0bHeiRNg/3.jpg" width="120" />
+			<ns4:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Comedy</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=dMH0bHeiRNg&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2006-04-06T21:30:53.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC5B9H4l2vtgo7cAoExcFh-w</ns2:uploaderId>
+			<ns2:videoid>dMH0bHeiRNg</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Evolution of Dance - By Judson Laipply</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=dMH0bHeiRNg&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/dMH0bHeiRNg" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="73644" numLikes="921008" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="100265972" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU</ns0:id>
+		<ns0:author>
+			<ns0:name>linkinparktv</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/linkinparktv</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/kXYiU_JCYtU?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:25:40.000Z</ns0:updated>
+		<ns0:published>2007-03-05T06:43:56.000Z</ns0:published>
+		<ns3:rating average="4.954437" max="5" min="1" numRaters="410245" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="115960" href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Linkin Park "Numb" Directed by Mr. Hahn
+
+				Subscribe for new music:  http://bit.ly/RTaVFI
+				More Linkin Park videos:  http://youtube.com/linkinparktv
+
+				Linkin Park on iTunes:  http://bit.ly/PovCh1
+				Visit http://linkinpark.com/
+
+				Like Linkin Park at http://facebook.com/linkinPark
+				Follow on Twitter at http://twitter.com/linkinpark
+
+				MP3:  http://smarturl.it/aem92g</ns4:description>
+			<ns4:title type="plain">Linkin Park - Numb</ns4:title>
+			<ns2:duration seconds="187" />
+			<ns4:content duration="187" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/kXYiU_JCYtU?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="linkinparktv" ns2:type="partner">linkinparktv</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:33.500" url="http://i.ytimg.com/vi/kXYiU_JCYtU/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:46.750" url="http://i.ytimg.com/vi/kXYiU_JCYtU/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:33.500" url="http://i.ytimg.com/vi/kXYiU_JCYtU/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:20.250" url="http://i.ytimg.com/vi/kXYiU_JCYtU/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=kXYiU_JCYtU&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2007-03-05T06:43:56.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCZU9T1ceaOgwfLRq7OKFU4Q</ns2:uploaderId>
+			<ns2:videoid>kXYiU_JCYtU</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Linkin Park - Numb</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=kXYiU_JCYtU&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kXYiU_JCYtU" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="denied" />
+		<ns2:rating numDislikes="4673" numLikes="405572" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="138591743" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Comedy" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4</ns0:id>
+		<ns0:author>
+			<ns0:name>NeilCicierega</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/NeilCicierega</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/Tx1XIm6q4r4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:26:17.000Z</ns0:updated>
+		<ns0:published>2007-03-24T06:32:49.000Z</ns0:published>
+		<ns3:rating average="4.8440475" max="5" min="1" numRaters="634911" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="290182" href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">http://www.potterpuppetpals.com
+				Snape hears a strange ticking sound. Love ensues.</ns4:description>
+			<ns4:title type="plain">Potter Puppet Pals: The Mysterious Ticking Noise</ns4:title>
+			<ns2:duration seconds="126" />
+			<ns4:content duration="126" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/Tx1XIm6q4r4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="NeilCicierega" ns2:type="partner">neilcicierega</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:03" url="http://i.ytimg.com/vi/Tx1XIm6q4r4/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:31.500" url="http://i.ytimg.com/vi/Tx1XIm6q4r4/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:03" url="http://i.ytimg.com/vi/Tx1XIm6q4r4/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:34.500" url="http://i.ytimg.com/vi/Tx1XIm6q4r4/3.jpg" width="120" />
+			<ns4:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Comedy</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=Tx1XIm6q4r4&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2007-03-24T06:32:49.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCDrJor35jYVnuC3JgRzheIw</ns2:uploaderId>
+			<ns2:videoid>Tx1XIm6q4r4</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Potter Puppet Pals: The Mysterious Ticking Noise</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=Tx1XIm6q4r4&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Tx1XIm6q4r4" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="24754" numLikes="610157" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="88187047" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="News &amp; Politics" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="News" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA</ns0:id>
+		<ns0:author>
+			<ns0:name>TayZonday</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/TayZonday</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/EwTZ2xpQwpA?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:12:49.000Z</ns0:updated>
+		<ns0:published>2007-04-23T06:22:31.000Z</ns0:published>
+		<ns3:rating average="4.346497" max="5" min="1" numRaters="536787" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="564122" href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">GET THE REMIX!: http://www.playtay.com
+
+				ON FACEBOOK! http://www.facebook.com/tayzonday1
+
+				FREE MP3! Right-click and SAVE!
+				http://www.tayzonday.net/Tay_Zonday_Chocolate_Rain.mp3
+
+				This MP3 is subject to a Creative Commons License. Creative Commons License Details:
+
+				http://creativecommons.org/licenses/by-nc-nd/3.0/us/
+
+				Original A Capella Vocals At 180BPM Right Click and SAVE!:
+
+				http://www.tayzonday.net/CR_Vocals_Rough_180bpm.wav
+
+				Heads up to remixers: I'm not sure how the long term commercial rights to the song will develop, but all commercial rights are generally reserved.
+
+				"Chocolate Rain"
+
+				Chocolate Rain
+				Some stay dry and others feel the pain
+				Chocolate Rain
+				A baby born will die before the sin
+
+				Chocolate Rain
+				The school books say it can't be here again
+				Chocolate Rain
+				The prisons make you wonder where it went
+
+				Chocolate Rain
+				Build a tent and say the world is dry
+				Chocolate Rain
+				Zoom the camera out and see the lie
+
+				Chocolate Rain
+				Forecast to be falling yesterday
+				Chocolate Rain
+				Only in the past is what they say
+
+				Chocolate Rain
+				Raised your neighborhood insurance rates
+				Chocolate Rain
+				Makes us happy 'livin in a gate
+
+				Chocolate Rain
+				Made me cross the street the other day
+				Chocolate Rain
+				Made you turn your head the other way
+
+				(Chorus)
+				Chocolate Rain
+				History quickly crashing through your veins
+				Chocolate Rain
+				Using you to fall back down again
+				[Repeat]
+
+				Chocolate Rain
+				Seldom mentioned on the radio
+				Chocolate Rain
+				Its the fear your leaders call control
+
+				Chocolate Rain
+				Worse than swearing worse than calling names
+				Chocolate Rain
+				Say it publicly and you're insane
+
+				Chocolate Rain
+				No one wants to hear about it now
+				Chocolate Rain
+				Wish real hard it goes away somehow
+
+				Chocolate Rain
+				Makes the best of friends begin to fight
+				Chocolate Rain
+				But did they know each other in the light?
+
+				Chocolate Rain
+				Every February washed away
+				Chocolate Rain
+				Stays behind as colors celebrate
+
+				Chocolate Rain
+				The same crime has a higher price to pay
+				chocolate Rain
+				The judge and jury swear it's not the face
+
+				(Chorus)
+
+				Chocolate Rain
+				Dirty secrets of economy
+				Chocolate Rain
+				Turns that body into GDP
+
+				Chocolate Rain
+				The bell curve blames the baby's DNA
+				Chocolate Rain
+				But test scores are how much the parents make
+
+				Chocolate Rain
+				'Flippin cars in France the other night
+				Chocolate Rain
+				Cleans the sewers out beneath Mumbai
+
+				Chocolate Rain
+				'Cross the world and back its all the same
+				Chocolate Rain
+				Angels cry and shake their heads in shame
+
+				Chocolate Rain
+				Lifts the ark of paradise in sin
+				Chocolate Rain
+				Which part do you think you're 'livin in?
+
+				Chocolate Rain
+				More than 'marchin more than passing law
+				Chocolate Rain
+				Remake how we got to where we are.
+
+				(Chorus)</ns4:description>
+			<ns4:title type="plain">"Chocolate Rain" Original Song by Tay Zonday</ns4:title>
+			<ns2:duration seconds="293" />
+			<ns4:content duration="293" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/EwTZ2xpQwpA?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="293" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache3.c.youtube.com/CkcLENy73wIaPgmQwlAa29kEExMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="293" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache3.c.youtube.com/CkcLENy73wIaPgmQwlAa29kEExMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="TayZonday" ns2:type="partner">tayzonday</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:26.500" url="http://i.ytimg.com/vi/EwTZ2xpQwpA/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:13.250" url="http://i.ytimg.com/vi/EwTZ2xpQwpA/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:26.500" url="http://i.ytimg.com/vi/EwTZ2xpQwpA/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:39.750" url="http://i.ytimg.com/vi/EwTZ2xpQwpA/3.jpg" width="120" />
+			<ns4:category label="News &amp; Politics" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">News</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=EwTZ2xpQwpA&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2007-04-23T06:22:31.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCjMWn75PwKgutJQ0J3mrLbA</ns2:uploaderId>
+			<ns2:videoid>EwTZ2xpQwpA</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">"Chocolate Rain" Original Song by Tay Zonday</ns0:title>
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CNu8q29Qs8I" rel="http://gdata.youtube.com/schemas/2007#video.in-response-to" type="application/atom+xml" />
+		<ns0:link href="https://www.youtube.com/watch?v=EwTZ2xpQwpA&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=EwTZ2xpQwpA" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EwTZ2xpQwpA" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="87698" numLikes="449089" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="509885223" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Comedy" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM</ns0:id>
+		<ns0:author>
+			<ns0:name>HDCYT</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/HDCYT</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/_OBlgSz8sSM?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:26:59.000Z</ns0:updated>
+		<ns0:published>2007-05-22T20:29:24.000Z</ns0:published>
+		<ns3:rating average="4.494148" max="5" min="1" numRaters="1147624" rel="http://schemas.google.com/g/2005#overall" />
+		<ns2:recorded>2007-03-19</ns2:recorded>
+		<ns3:comments>
+			<ns3:feedLink countHint="796498" href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">T-Shirts http://charliebitme.firebrandstore.com/
+				iPhone  http://itunes.apple.com/gb/app/charlie-bit-me!!!/id494858348?mt=8
+				Android  https://play.google.com/store/apps/details?id=com.viralspiral.charlie
+				Even had I thought of trying to get my boys to do this I probably couldn't have. Neither were coerced into any of this and neither were hurt (for very long anyway).  This was just one of those moments when I had the video camera out because the boys were being fun and they provided something really very funny.
+
+				FAQ Harry is 8 3/4, Charlie is 6 1/2, Jasper is  4 1/4, Rupert is 1 1/2
+				(November 2012)
+
+				Harry and Charlie Blogging - Charlie Bit My Finger Again!
+				http://harryandcharlie.blogspot.com/
+
+				Twitter
+				http://twitter.com/harryandcharlie</ns4:description>
+			<ns4:title type="plain">Charlie bit my finger - again !</ns4:title>
+			<ns2:duration seconds="56" />
+			<ns4:content duration="56" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/_OBlgSz8sSM?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="56" expression="full" medium="video" type="video/3gpp" url="rtsp://r5---sn-o097zuel.c.youtube.com/CkcLENy73wIaPgkjsfwsgWXg_BMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="56" expression="full" medium="video" type="video/3gpp" url="rtsp://r5---sn-o097zuel.c.youtube.com/CkcLENy73wIaPgkjsfwsgWXg_BMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="HDCYT" ns2:type="partner">hdcyt</ns4:credit>
+			<ns4:thumbnail height="360" time="00:00:28" url="http://i.ytimg.com/vi/_OBlgSz8sSM/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:14" url="http://i.ytimg.com/vi/_OBlgSz8sSM/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:00:28" url="http://i.ytimg.com/vi/_OBlgSz8sSM/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:00:42" url="http://i.ytimg.com/vi/_OBlgSz8sSM/3.jpg" width="120" />
+			<ns4:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Comedy</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=_OBlgSz8sSM&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2007-05-22T20:29:24.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCfHZCZHykS3IQDPyFfnqjWg</ns2:uploaderId>
+			<ns2:videoid>_OBlgSz8sSM</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Charlie bit my finger - again !</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=_OBlgSz8sSM&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=_OBlgSz8sSM" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_OBlgSz8sSM" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="145132" numLikes="1002492" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="72386468" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Pets &amp; Animals" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Animals" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo</ns0:id>
+		<ns0:author>
+			<ns0:name>smpfilms</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/smpfilms</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/Qit3ALTelOo?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T11:59:23.000Z</ns0:updated>
+		<ns0:published>2007-09-05T14:33:15.000Z</ns0:published>
+		<ns3:rating average="4.760852" max="5" min="1" numRaters="418485" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="245623" href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">SPARTA'S YOUTUBE CHANNEL:
+				http://www.YouTube.com/TheMeanKitty
+
+				LYRICS:
+				I got this little kitty about 2 months back
+				he was the nicest little kitty, now a pain in my crack
+				This little kitty is a ninja, always stalking my feet
+				This little kitty is a warrior you know what I mean
+
+				he's an evil little kitty look what he did to my hand
+				tries to get in trouble in any way that he can
+				I could give this cat a toy, but he'd rather have the wrapper
+				and I will always give him water, but he still drinks from the crapper
+
+				You could lock him in a closet and he just won't care
+				kitty chews on my shoes and he licks my hair
+				always scratching on my favorite chair and jumping on the couch
+				playing in the window sills and tearing through the house
+
+				He's so full of energy and easily amused
+				kitty will attack anything that moves
+				Causing trouble, starting battles just so he could be a little part of
+				he's a meanest little kitty so we named him sparta
+
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite
+
+				Where'd you go
+				are you stalking me?
+				are you under the couch, quite possibly
+				ears laid back so you don't get caught
+				ready to pounce my leg with everything that you got
+
+				I know you're probably watching me from across the room
+				concentrating contemplating on attacking me soon
+				You're not invisible kitty, I'm gonna find you first
+				Come out come out before I make things worse
+
+				I've seen where you hide and I know where you've been
+				Hey kitty why don't you give in
+				Even if you try to sneak up on me, I'm prepared
+				Cause I've got my safety gear on and I'm not scared
+
+				I think I hear a kitty cat under the bed
+				I know your making noises just to mess with my head
+				You can stalk me all you want, but I'm not your pray
+				cause you always seem to find me first, but not today
+
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				Come on out, I'm gonna get you now
+
+				I've got 'em cornered
+				and now he's mine
+				He's not gonna get away this time
+				I'll snatch him up fast before he can blink and then...
+				Aw man!  He's asleep in the sink
+
+				What is with this cat?  I'm confused
+				He's got a bed, but it's never been used
+				In every waking moment, kitty's out for the fight
+				then [fart] next minute kitty's out like a light
+
+				How could I let this creature live inside of my home
+				I gotta keep an eye on him when I'm on the phone
+				I'm a little afraid to leave this cat all alone
+				this kitty may destroy everything that I own
+
+				Look at him now, I kinda feel bad
+				He's the best little cat that I've had
+				and the one big thing I forgot to mention, was that
+				He wasn't fighting, he just wanted attention
+
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				little bitty kitty wanna bite bite bite
+				Hey little sparta what is with all the fight
+				showing love, that's all this kitty does
+
+				BEHIND THE SCENES
+				If you have a cat, I'm sure you can relate, lol.  I originally wrote the song because I didn't want to do a simple talking blog about my Sparta's little biting problem and I also wanted to show my friends back home in Turlock what my new place in Thousand Oaks looks like..  BTW, trying to get a cat to perform for a music video... nearly impossible!  Thanks for SUBSCRIBING! :D
+
+				TAGS:
+				kitty cat mean song kitten cute funny little cats smpfilms smp films cory williams Sparta themeankitty music lyrics pet animal pets animals guy singing adoption adopt food toy toys furniture apartment home house scratch ball playing play dance meow kittens furry love loves bored new loki angry mad  "Funny Cats"</ns4:description>
+			<ns4:title type="plain">The Mean Kitty Song</ns4:title>
+			<ns2:duration seconds="210" />
+			<ns4:content duration="210" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/Qit3ALTelOo?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="210" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache4.c.youtube.com/CkcLENy73wIaPgnqlN60AHcrQhMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="210" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache4.c.youtube.com/CkcLENy73wIaPgnqlN60AHcrQhMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="smpfilms" ns2:type="partner">smpfilms</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:45" url="http://i.ytimg.com/vi/Qit3ALTelOo/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:52.500" url="http://i.ytimg.com/vi/Qit3ALTelOo/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:45" url="http://i.ytimg.com/vi/Qit3ALTelOo/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:37.500" url="http://i.ytimg.com/vi/Qit3ALTelOo/3.jpg" width="120" />
+			<ns4:category label="Pets &amp; Animals" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Animals</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=Qit3ALTelOo&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2007-09-05T14:33:15.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCLat8CECTXsvUTsclmDdFGw</ns2:uploaderId>
+			<ns2:videoid>Qit3ALTelOo</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">The Mean Kitty Song</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=Qit3ALTelOo&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=Qit3ALTelOo" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Qit3ALTelOo" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="25020" numLikes="393465" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="161957665" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Entertainment" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Entertainment" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go</ns0:id>
+		<ns0:author>
+			<ns0:name>KrowBatellio</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/KrowBatellio</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/1uwOL4rB-go?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:18:19.000Z</ns0:updated>
+		<ns0:published>2007-09-29T17:04:02.000Z</ns0:published>
+		<ns3:rating average="4.801504" max="5" min="1" numRaters="557452" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="227491" href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">http://www.amazon.com/gp/product/B000S6LS66?ie=UTF8&amp;tag=jeffduncom-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B000S6LS66</ns4:description>
+			<ns4:title type="plain">Jeff Dunham - Achmed the Dead Terrorist</ns4:title>
+			<ns2:duration seconds="648" />
+			<ns4:content duration="648" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/1uwOL4rB-go?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="648" expression="full" medium="video" type="video/3gpp" url="rtsp://v3.cache3.c.youtube.com/CkcLENy73wIaPgkK-sGKLw7s1hMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="648" expression="full" medium="video" type="video/3gpp" url="rtsp://v3.cache3.c.youtube.com/CkcLENy73wIaPgkK-sGKLw7s1hMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="KrowBatellio">krowbatellio</ns4:credit>
+			<ns4:thumbnail height="360" time="00:05:24" url="http://i.ytimg.com/vi/1uwOL4rB-go/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:02:42" url="http://i.ytimg.com/vi/1uwOL4rB-go/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:05:24" url="http://i.ytimg.com/vi/1uwOL4rB-go/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:08:06" url="http://i.ytimg.com/vi/1uwOL4rB-go/3.jpg" width="120" />
+			<ns4:category label="Entertainment" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Entertainment</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=1uwOL4rB-go&amp;feature=youtube_gdata_player" />
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2007-09-29T17:04:02.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC0W_cSq4Vhidc0LsuHT27jA</ns2:uploaderId>
+			<ns2:videoid>1uwOL4rB-go</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Jeff Dunham - Achmed the Dead Terrorist</ns0:title>
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hso4pRNTywY" rel="http://gdata.youtube.com/schemas/2007#video.in-response-to" type="application/atom+xml" />
+		<ns0:link href="https://www.youtube.com/watch?v=1uwOL4rB-go&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=1uwOL4rB-go" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1uwOL4rB-go" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="27663" numLikes="529789" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="147637623" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A</ns0:id>
+		<ns0:author>
+			<ns0:name>OfficialJasonMraz</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/OfficialJasonMraz</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/EkHTsc9PU2A?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:17:41.000Z</ns0:updated>
+		<ns0:published>2008-03-14T23:06:24.000Z</ns0:published>
+		<ns3:rating average="4.9387054" max="5" min="1" numRaters="417330" rel="http://schemas.google.com/g/2005#overall" />
+		<ns2:recorded>2009-10-28</ns2:recorded>
+		<ns3:comments>
+			<ns3:feedLink countHint="127742" href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Â© 2009 WMG
+				I'm Yours (Live On Earth Single Video)</ns4:description>
+			<ns4:title type="plain">Jason Mraz - I'm Yours (Live On Earth Single Video)</ns4:title>
+			<ns2:duration seconds="221" />
+			<ns4:content duration="221" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/EkHTsc9PU2A?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="OfficialJasonMraz" ns2:type="partner">officialjasonmraz</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:50.500" url="http://i.ytimg.com/vi/EkHTsc9PU2A/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:55.250" url="http://i.ytimg.com/vi/EkHTsc9PU2A/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:50.500" url="http://i.ytimg.com/vi/EkHTsc9PU2A/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:45.750" url="http://i.ytimg.com/vi/EkHTsc9PU2A/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=EkHTsc9PU2A&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="allow" type="country">BE FR BG VE BA HR BO JP HU HK ZA US BR FI DK RU MT NL PT NO TW PY TR LT NG LV NZ LU PG TH PE PH RO IS PL CH CO GR CN CL EE CA IT AL CZ CY AR AU GB ID IN AD IE EG ES ME UY MC UA IL RS MY MK SK KR SI SG MX SE AT</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2008-03-14T23:06:24.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC8ey1FYCmgHPa9f5KxWb0mw</ns2:uploaderId>
+			<ns2:videoid>EkHTsc9PU2A</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Jason Mraz - I'm Yours (Live On Earth Single Video)</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=EkHTsc9PU2A&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/EkHTsc9PU2A" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="denied" />
+		<ns2:rating numDislikes="6395" numLikes="410935" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="124037911" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Comedy" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4</ns0:id>
+		<ns0:author>
+			<ns0:name>thelonelyisland</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/thelonelyisland</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/4pXfHLUlZf4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:16:58.000Z</ns0:updated>
+		<ns0:published>2008-12-07T05:19:15.000Z</ns0:published>
+		<ns3:rating average="4.841713" max="5" min="1" numRaters="628176" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="422981" href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">http://Itunes.com/thelonelyisland
+
+				The first single from The Lonely Island's debut album "INCREDIBAD". In stores 02/10/2009.
+
+				Video features guest appearances by Molly Sims, Jamie Lynn Sigler, and Justin Timberlake.
+
+				The Lonely Island is Andy Samberg, Akiva Schaffer and Jorma Taccone.
+
+				(Directed by Kiv)
+
+				Copyright - Universal Republic</ns4:description>
+			<ns4:title type="plain">Jizz In My Pants</ns4:title>
+			<ns2:duration seconds="153" />
+			<ns4:content duration="153" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/4pXfHLUlZf4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="thelonelyisland">thelonelyisland</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:16.500" url="http://i.ytimg.com/vi/4pXfHLUlZf4/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:38.250" url="http://i.ytimg.com/vi/4pXfHLUlZf4/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:16.500" url="http://i.ytimg.com/vi/4pXfHLUlZf4/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:54.750" url="http://i.ytimg.com/vi/4pXfHLUlZf4/3.jpg" width="120" />
+			<ns4:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Comedy</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=4pXfHLUlZf4&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2008-12-07T05:19:15.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCCHcEUksSVKsRDH86j77Ntg</ns2:uploaderId>
+			<ns2:videoid>4pXfHLUlZf4</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Jizz In My Pants</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=4pXfHLUlZf4&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/4pXfHLUlZf4" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="denied" />
+		<ns2:hd />
+		<ns2:location>new york, ny</ns2:location>
+		<ns2:rating numDislikes="24858" numLikes="603318" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="105056937" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Comedy" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/NisCkxU544c</ns0:id>
+		<ns0:author>
+			<ns0:name>thelonelyisland</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/thelonelyisland</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/NisCkxU544c?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:26:58.000Z</ns0:updated>
+		<ns0:published>2009-04-05T05:20:10.000Z</ns0:published>
+		<ns3:rating average="4.9015746" max="5" min="1" numRaters="518808" rel="http://schemas.google.com/g/2005#overall" />
+		<ns2:recorded>2009-04-04</ns2:recorded>
+		<ns3:comments>
+			<ns3:feedLink countHint="234667" href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">http://www.itunes.com/thelonelyisland
+
+				The new single from The Lonely Island's debut album "INCREDIBAD" In stores now!
+
+				Featuring Seth Rogen.
+
+				The Lonely Island is Andy Samberg, Akiva Schaffer &amp; Jorma Taccone.</ns4:description>
+			<ns4:title type="plain">Like A Boss (ft. Seth Rogen) - Uncensored Version</ns4:title>
+			<ns2:duration seconds="119" />
+			<ns4:content duration="119" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/NisCkxU544c?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="119" expression="full" medium="video" type="video/3gpp" url="rtsp://v8.cache7.c.youtube.com/CkcLENy73wIaPgmH4zkVkwIrNhMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="119" expression="full" medium="video" type="video/3gpp" url="rtsp://v8.cache7.c.youtube.com/CkcLENy73wIaPgmH4zkVkwIrNhMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="thelonelyisland" ns2:type="partner">thelonelyisland</ns4:credit>
+			<ns4:thumbnail height="360" time="00:00:59.500" url="http://i.ytimg.com/vi/NisCkxU544c/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:29.750" url="http://i.ytimg.com/vi/NisCkxU544c/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:00:59.500" url="http://i.ytimg.com/vi/NisCkxU544c/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:29.250" url="http://i.ytimg.com/vi/NisCkxU544c/3.jpg" width="120" />
+			<ns4:category label="Comedy" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Comedy</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=NisCkxU544c&amp;feature=youtube_gdata_player" />
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-04-05T05:20:10.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCCHcEUksSVKsRDH86j77Ntg</ns2:uploaderId>
+			<ns2:videoid>NisCkxU544c</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Like A Boss (ft. Seth Rogen) - Uncensored Version</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=NisCkxU544c&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=NisCkxU544c" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/NisCkxU544c" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:hd />
+		<ns2:location>10112</ns2:location>
+		<ns2:rating numDislikes="12766" numLikes="506042" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="140565000" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0</ns0:id>
+		<ns0:author>
+			<ns0:name>linkinparktv</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/linkinparktv</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/ysSxxIqKNN0?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:24:17.000Z</ns0:updated>
+		<ns0:published>2009-06-15T16:35:31.000Z</ns0:published>
+		<ns3:rating average="4.917449" max="5" min="1" numRaters="484355" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="253623" href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">The official music video for New Divide, filmed on the set of Transformers: Revenge of the Fallen, directed by Joe Hahn. Get the song at iTunes now.
+
+				Subscribe for new music:  http://bit.ly/RTaVFI
+				More Linkin Park videos:  http://youtube.com/linkinparktv
+
+				Linkin Park on iTunes:  http://bit.ly/PovCh1
+				Visit http://linkinpark.com/
+
+				Like Linkin Park at http://facebook.com/linkinPark
+				Follow on Twitter at http://twitter.com/linkinpark
+
+				MP3:  http://smarturl.it/aem92g</ns4:description>
+			<ns4:title type="plain">Linkin Park - "New Divide"</ns4:title>
+			<ns2:duration seconds="267" />
+			<ns4:content duration="267" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/ysSxxIqKNN0?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="linkinparktv" ns2:type="partner">linkinparktv</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:13.500" url="http://i.ytimg.com/vi/ysSxxIqKNN0/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:06.750" url="http://i.ytimg.com/vi/ysSxxIqKNN0/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:13.500" url="http://i.ytimg.com/vi/ysSxxIqKNN0/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:20.250" url="http://i.ytimg.com/vi/ysSxxIqKNN0/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=ysSxxIqKNN0&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-06-15T16:35:31.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCZU9T1ceaOgwfLRq7OKFU4Q</ns2:uploaderId>
+			<ns2:videoid>ysSxxIqKNN0</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Linkin Park - "New Divide"</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=ysSxxIqKNN0&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/ysSxxIqKNN0" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="denied" />
+		<ns2:hd />
+		<ns2:rating numDislikes="9996" numLikes="474359" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="221338179" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw</ns0:id>
+		<ns0:author>
+			<ns0:name>TaylorSwiftVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/TaylorSwiftVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/VuNIsY6JdUw?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:27:30.000Z</ns0:updated>
+		<ns0:published>2009-06-16T21:07:24.000Z</ns0:published>
+		<ns3:rating average="4.866271" max="5" min="1" numRaters="534215" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="223388" href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Taylor Swift performing You Belong With Me. (C) 2009 Big Machine Records, LLC</ns4:description>
+			<ns4:title type="plain">Taylor Swift - You Belong With Me</ns4:title>
+			<ns2:duration seconds="229" />
+			<ns4:content duration="229" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/VuNIsY6JdUw?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="TaylorSwiftVEVO" ns2:type="partner">taylorswiftvevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:54.500" url="http://i.ytimg.com/vi/VuNIsY6JdUw/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:57.250" url="http://i.ytimg.com/vi/VuNIsY6JdUw/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:54.500" url="http://i.ytimg.com/vi/VuNIsY6JdUw/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:51.750" url="http://i.ytimg.com/vi/VuNIsY6JdUw/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=VuNIsY6JdUw&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-06-16T21:07:24.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCANLZYMidaCbLQFWXBC95Jg</ns2:uploaderId>
+			<ns2:videoid>VuNIsY6JdUw</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Taylor Swift - You Belong With Me</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=VuNIsY6JdUw&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/VuNIsY6JdUw" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="17860" numLikes="516355" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="96142190" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg</ns0:id>
+		<ns0:author>
+			<ns0:name>NirvanaVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/NirvanaVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/hTWKbfoikeg?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:27:20.000Z</ns0:updated>
+		<ns0:published>2009-06-16T21:07:40.000Z</ns0:published>
+		<ns3:rating average="4.936138" max="5" min="1" numRaters="432435" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="185694" href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Nirvana performing Smells Like Teen Spirit. (C) 1991 Geffen Records</ns4:description>
+			<ns4:title type="plain">Nirvana - Smells Like Teen Spirit</ns4:title>
+			<ns2:duration seconds="278" />
+			<ns4:content duration="278" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/hTWKbfoikeg?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="NirvanaVEVO" ns2:type="partner">nirvanavevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:19" url="http://i.ytimg.com/vi/hTWKbfoikeg/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:09.500" url="http://i.ytimg.com/vi/hTWKbfoikeg/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:19" url="http://i.ytimg.com/vi/hTWKbfoikeg/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:28.500" url="http://i.ytimg.com/vi/hTWKbfoikeg/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=hTWKbfoikeg&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:uploaded>2009-06-16T21:07:40.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCzGrGrvf9g8CVVzh_LvGf-g</ns2:uploaderId>
+			<ns2:videoid>hTWKbfoikeg</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Nirvana - Smells Like Teen Spirit</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=hTWKbfoikeg&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/hTWKbfoikeg" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="6904" numLikes="425531" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="133152015" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI</ns0:id>
+		<ns0:author>
+			<ns0:name>EminemVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/EminemVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/1wYNFfgrXTI?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:25:08.000Z</ns0:updated>
+		<ns0:published>2009-06-16T22:48:41.000Z</ns0:published>
+		<ns3:rating average="4.9526324" max="5" min="1" numRaters="488602" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="228322" href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Eminem performing When I'm Gone. (C) 2005 Aftermath Entertainment/Interscope Records</ns4:description>
+			<ns4:title type="plain">Eminem - When I'm Gone</ns4:title>
+			<ns2:duration seconds="369" />
+			<ns4:content duration="369" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/1wYNFfgrXTI?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="EminemVEVO" ns2:type="partner">eminemvevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:03:04.500" url="http://i.ytimg.com/vi/1wYNFfgrXTI/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:32.250" url="http://i.ytimg.com/vi/1wYNFfgrXTI/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:04.500" url="http://i.ytimg.com/vi/1wYNFfgrXTI/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:04:36.750" url="http://i.ytimg.com/vi/1wYNFfgrXTI/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=1wYNFfgrXTI&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-06-16T22:48:41.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC20vb-R_px4CguHzzBPhoyQ</ns2:uploaderId>
+			<ns2:videoid>1wYNFfgrXTI</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Eminem - When I'm Gone</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=1wYNFfgrXTI&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/1wYNFfgrXTI" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="5786" numLikes="482816" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="317183613" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA</ns0:id>
+		<ns0:author>
+			<ns0:name>hollywoodrecords</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/hollywoodrecords</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/M11SvDtPBhA?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:25:16.000Z</ns0:updated>
+		<ns0:published>2009-09-25T22:35:55.000Z</ns0:published>
+		<ns3:rating average="4.3406973" max="5" min="1" numRaters="684523" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="801057" href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Miley Cyrus performing Party In The U.S.A..
+				#VEVOCertified on March 22, 2010. http://www.vevo.com/certified http://www.youtube.com/vevocertified</ns4:description>
+			<ns4:title type="plain">Miley Cyrus - Party In The U.S.A.</ns4:title>
+			<ns2:duration seconds="201" />
+			<ns4:content duration="201" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/M11SvDtPBhA?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="hollywoodrecords" ns2:type="partner">hollywoodrecords</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:40.500" url="http://i.ytimg.com/vi/M11SvDtPBhA/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:50.250" url="http://i.ytimg.com/vi/M11SvDtPBhA/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:40.500" url="http://i.ytimg.com/vi/M11SvDtPBhA/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:30.750" url="http://i.ytimg.com/vi/M11SvDtPBhA/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=M11SvDtPBhA&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-09-25T22:35:55.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCufxAtBrPqlPy5fHNIZwauA</ns2:uploaderId>
+			<ns2:videoid>M11SvDtPBhA</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Miley Cyrus - Party In The U.S.A.</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=M11SvDtPBhA&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/M11SvDtPBhA" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:hd />
+		<ns2:rating numDislikes="112827" numLikes="571696" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="129250367" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY</ns0:id>
+		<ns0:author>
+			<ns0:name>systemofadownVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/systemofadownVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/CSvFpBOe8eY?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:25:53.000Z</ns0:updated>
+		<ns0:published>2009-10-03T04:32:57.000Z</ns0:published>
+		<ns3:rating average="4.9023075" max="5" min="1" numRaters="406419" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="138536" href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by System Of A Down performing Chop Suey!. (C) 2001 SONY BMG MUSIC ENTERTAINMENT
+				#VEVOCertified on June 9, 2011. http://www.youtube.com/vevocertified</ns4:description>
+			<ns4:title type="plain">System Of A Down - Chop Suey!</ns4:title>
+			<ns2:duration seconds="207" />
+			<ns4:content duration="207" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/CSvFpBOe8eY?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="systemofadownVEVO" ns2:type="partner">systemofadownvevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:43.500" url="http://i.ytimg.com/vi/CSvFpBOe8eY/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:51.750" url="http://i.ytimg.com/vi/CSvFpBOe8eY/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:43.500" url="http://i.ytimg.com/vi/CSvFpBOe8eY/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:35.250" url="http://i.ytimg.com/vi/CSvFpBOe8eY/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=CSvFpBOe8eY&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="allow" type="country">BD BE BF BG BA BB WF BL BM BN BO BH BI BJ BT JM BV BW WS BQ BR BS JE BY BZ RU RW RS LT RE LU LR RO TK GW GU GT GS GR GQ GP JP GY GG GF GE GD GB GA GN GM GL KW GI GH OM JO HR HT HU HK HN LV HM KR AD PR PS PW PT KN PY AI PA PF PG PE PK PH PN PL PM ZM EH EE EG ZA EC AL AO KZ ET ZW KY ES ER ME MD MG MF MA MC UZ MM ML MO MN MH MK UM MT MW MV MQ MP MS MR AU UG MY MX MZ FR AW AF AX FI FJ FK FM FO NI NL NO NA VU NC NE NF NG NZ NP NR NU CK CI CH CO CN CM CL CC CA CG CF CD CZ CY CX CR KP CW CV CU SZ SY SX KG KE SR KI KH SV KM ST SK SJ SI SH SO SN SM SL SC SB SA SG SE SD DO DM DJ DK YE AT DZ US UY YT MU LB LC LA TV TW TT TR LK LI TN TO TL TM TJ LS TH TF TG TD TC LY VA VC AE VE AG VG IQ VI IS IR AM IT VN AQ AS AR IM IL IO IN TZ AZ IE ID UA QA</ns4:restriction>
+			<ns2:uploaded>2009-10-03T04:32:57.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCvtZDkeFxMkRTNqfqXtxxkw</ns2:uploaderId>
+			<ns2:videoid>CSvFpBOe8eY</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">System Of A Down - Chop Suey!</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=CSvFpBOe8eY&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CSvFpBOe8eY" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="9926" numLikes="396493" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="158763983" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8</ns0:id>
+		<ns0:author>
+			<ns0:name>jayz</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/jayz</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/0UjsXo9l6I8?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:19:14.000Z</ns0:updated>
+		<ns0:published>2009-10-30T21:54:52.000Z</ns0:published>
+		<ns3:rating average="4.8681064" max="5" min="1" numRaters="400110" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="3539" href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Check out the OFFICIAL VIDEO for "Empire State of Mind" Jay Z | Alicia Keys!
+
+				Life+Times | Twitter: http://full.sc/REKTYT
+				Life+Times | Facebook: http://full.sc/REKOV9
+				LifeandTimes.com http://full.sc/RWJL0a
+				Itunes: http://full.sc/Tw0I0R</ns4:description>
+			<ns4:title type="plain">"Empire State of Mind" Jay Z | Alicia Keys [OFFICIAL VIDEO]</ns4:title>
+			<ns2:duration seconds="282" />
+			<ns4:content duration="282" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/0UjsXo9l6I8?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="282" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache6.c.youtube.com/CkcLENy73wIaPgmP6GWPXuxI0RMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="282" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache6.c.youtube.com/CkcLENy73wIaPgmP6GWPXuxI0RMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="jayz">jayz</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:21" url="http://i.ytimg.com/vi/0UjsXo9l6I8/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:10.500" url="http://i.ytimg.com/vi/0UjsXo9l6I8/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:21" url="http://i.ytimg.com/vi/0UjsXo9l6I8/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:31.500" url="http://i.ytimg.com/vi/0UjsXo9l6I8/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=0UjsXo9l6I8&amp;feature=youtube_gdata_player" />
+			<ns2:uploaded>2009-10-30T21:54:52.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCN-sc1xJr-QQNj_uNIM9wTA</ns2:uploaderId>
+			<ns2:videoid>0UjsXo9l6I8</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">"Empire State of Mind" Jay Z | Alicia Keys [OFFICIAL VIDEO]</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=0UjsXo9l6I8&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=0UjsXo9l6I8" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/0UjsXo9l6I8" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="moderated" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="13193" numLikes="386917" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="506290235" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I</ns0:id>
+		<ns0:author>
+			<ns0:name>LadyGagaVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/LadyGagaVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/qrO4YZeyl0I?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:27:43.000Z</ns0:updated>
+		<ns0:published>2009-11-24T07:45:26.000Z</ns0:published>
+		<ns3:rating average="4.296275" max="5" min="1" numRaters="856420" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="1443151" href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Lady Gaga performing Bad Romance. (C) 2009 Interscope Records
+				#VEVOCertified on January 31, 2010. http://www.vevo.com/certified http://www.youtube.com/vevocertified</ns4:description>
+			<ns4:title type="plain">Lady Gaga - Bad Romance</ns4:title>
+			<ns2:duration seconds="308" />
+			<ns4:content duration="308" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/qrO4YZeyl0I?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="LadyGagaVEVO" ns2:type="partner">ladygagavevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:34" url="http://i.ytimg.com/vi/qrO4YZeyl0I/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:17" url="http://i.ytimg.com/vi/qrO4YZeyl0I/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:34" url="http://i.ytimg.com/vi/qrO4YZeyl0I/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:51" url="http://i.ytimg.com/vi/qrO4YZeyl0I/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=qrO4YZeyl0I&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-11-24T07:45:26.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC07Kxew-cMIaykMOkzqHtBQ</ns2:uploaderId>
+			<ns2:videoid>qrO4YZeyl0I</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Lady Gaga - Bad Romance</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=qrO4YZeyl0I&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/qrO4YZeyl0I" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="150671" numLikes="705749" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="312297970" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8</ns0:id>
+		<ns0:author>
+			<ns0:name>JustinBieberVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/JustinBieberVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/CHVhwcOg6y8?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:25:21.000Z</ns0:updated>
+		<ns0:published>2009-11-24T21:55:24.000Z</ns0:published>
+		<ns3:rating average="3.1658936" max="5" min="1" numRaters="928692" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="766680" href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Justin Bieber performing One Time. (C) 2009 The Island Def Jam Music Group</ns4:description>
+			<ns4:title type="plain">Justin Bieber - One Time</ns4:title>
+			<ns2:duration seconds="243" />
+			<ns4:content duration="243" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/CHVhwcOg6y8?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="JustinBieberVEVO" ns2:type="partner">justinbiebervevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:01.500" url="http://i.ytimg.com/vi/CHVhwcOg6y8/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:00.750" url="http://i.ytimg.com/vi/CHVhwcOg6y8/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:01.500" url="http://i.ytimg.com/vi/CHVhwcOg6y8/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:02.250" url="http://i.ytimg.com/vi/CHVhwcOg6y8/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=CHVhwcOg6y8&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-11-24T21:55:24.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCHkj014U2CQ2Nv0UZeYpE_A</ns2:uploaderId>
+			<ns2:videoid>CHVhwcOg6y8</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Justin Bieber - One Time</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=CHVhwcOg6y8&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/CHVhwcOg6y8" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="425830" numLikes="502862" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="147313048" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM</ns0:id>
+		<ns0:author>
+			<ns0:name>EminemVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/EminemVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/lgT1AidzRWM?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:26:24.000Z</ns0:updated>
+		<ns0:published>2009-11-25T22:46:19.000Z</ns0:published>
+		<ns3:rating average="4.926847" max="5" min="1" numRaters="428144" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="205597" href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Eminem performing Beautiful. (C) 2009 Aftermath Records</ns4:description>
+			<ns4:title type="plain">Eminem - Beautiful</ns4:title>
+			<ns2:duration seconds="255" />
+			<ns4:content duration="255" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/lgT1AidzRWM?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="EminemVEVO" ns2:type="partner">eminemvevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:02:07.500" url="http://i.ytimg.com/vi/lgT1AidzRWM/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:01:03.750" url="http://i.ytimg.com/vi/lgT1AidzRWM/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:07.500" url="http://i.ytimg.com/vi/lgT1AidzRWM/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:03:11.250" url="http://i.ytimg.com/vi/lgT1AidzRWM/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=lgT1AidzRWM&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2009-11-25T22:46:19.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC20vb-R_px4CguHzzBPhoyQ</ns2:uploaderId>
+			<ns2:videoid>lgT1AidzRWM</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Eminem - Beautiful</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=lgT1AidzRWM&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/lgT1AidzRWM" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="7830" numLikes="420314" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="147094952" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE</ns0:id>
+		<ns0:author>
+			<ns0:name>GunsNRosesVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/GunsNRosesVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/8SbUC-UaAxE?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:23:16.000Z</ns0:updated>
+		<ns0:published>2009-12-25T07:07:12.000Z</ns0:published>
+		<ns3:rating average="4.9259996" max="5" min="1" numRaters="507998" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="118695" href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Guns N' Roses performing November Rain. YouTube view counts pre-VEVO: 6,894,036. (C) 1992 Guns N' Roses
+				#VEVOCertified on June 24, 2012: http://www.vevo.com/certified http://www.youtube.com/vevocertified</ns4:description>
+			<ns4:title type="plain">Guns N' Roses - November Rain</ns4:title>
+			<ns2:duration seconds="548" />
+			<ns4:content duration="548" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/8SbUC-UaAxE?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="GunsNRosesVEVO" ns2:type="partner">gunsnrosesvevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:04:34" url="http://i.ytimg.com/vi/8SbUC-UaAxE/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:02:17" url="http://i.ytimg.com/vi/8SbUC-UaAxE/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:04:34" url="http://i.ytimg.com/vi/8SbUC-UaAxE/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:06:51" url="http://i.ytimg.com/vi/8SbUC-UaAxE/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:uploaded>2009-12-25T07:07:12.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCJN4c_lZorb_0eyIP_tSS3A</ns2:uploaderId>
+			<ns2:videoid>8SbUC-UaAxE</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Guns N' Roses - November Rain</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=8SbUC-UaAxE&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8SbUC-UaAxE" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="9398" numLikes="498600" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="118474894" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/Glny4jSciVI</ns0:id>
+		<ns0:author>
+			<ns0:name>wearetheworld</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/wearetheworld</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/Glny4jSciVI?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:18:09.000Z</ns0:updated>
+		<ns0:published>2010-02-13T00:29:06.000Z</ns0:published>
+		<ns3:rating average="4.7837477" max="5" min="1" numRaters="515250" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="364628" href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Recorded on February 1st, 2010, in the same studio as the original 25 years earlier (Henson Recording Studios, formerly A&amp;M Recording Studios) "We Are The World 25 For Haiti", in which Quincy Jones and Lionel Richie serve as executive producers and producers, was created in collaboration with executive producers Wyclef Jean, Randy Phillips and Peter Tortorici; producers Humberto Gattica and RedOne; and co-producers Rickey Minor, Mervyn Warren and Patti Austin to benefit the Haitian earthquake relief efforts and the rebuilding of Haiti.
+
+				Academy Award-winning writer-director Paul Haggis (Crash, Million Dollar Baby), whose own personal efforts as well as those of Artists for Peace and Justice have already saved countless lives in Haiti, filmed the private recording session to create the accompanying video and behind-the-scenes production, and serves as Film Director and as an Executive Producer with Jones, Richie, Jean, Phillips and Tortorici.
+
+				The 25th Anniversary recording features over 80 artists and performers. The recording of We Are The World 25 For Haiti embodied the same enthusiasm, sense of purpose and generosity as the original recording 25 years ago. Every one of the artists who participated, regardless of genre or generation, walked into the room with their hearts and souls completely open to coming together to help the people of Haiti.</ns4:description>
+			<ns4:title type="plain">We Are The World 25 For Haiti - Official Video</ns4:title>
+			<ns2:duration seconds="513" />
+			<ns4:content duration="513" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/Glny4jSciVI?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:content duration="513" expression="full" medium="video" type="video/3gpp" url="rtsp://v8.cache6.c.youtube.com/CkcLENy73wIaPglSiZw04vJZGhMYDSANFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="1" />
+			<ns4:content duration="513" expression="full" medium="video" type="video/3gpp" url="rtsp://v8.cache6.c.youtube.com/CkcLENy73wIaPglSiZw04vJZGhMYESARFEgGUghzdGFuZGFyZHIhAfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDmDA==/0/0/0/video.3gp" ns2:format="6" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="wearetheworld" ns2:type="partner">wearetheworld</ns4:credit>
+			<ns4:thumbnail height="360" time="00:04:16.500" url="http://i.ytimg.com/vi/Glny4jSciVI/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:02:08.250" url="http://i.ytimg.com/vi/Glny4jSciVI/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:04:16.500" url="http://i.ytimg.com/vi/Glny4jSciVI/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:06:24.750" url="http://i.ytimg.com/vi/Glny4jSciVI/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=Glny4jSciVI&amp;feature=youtube_gdata_player" />
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2010-02-13T00:29:06.000Z</ns2:uploaded>
+			<ns2:uploaderId>UC0mVZObdgqzIufsHnUtUtew</ns2:uploaderId>
+			<ns2:videoid>Glny4jSciVI</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">We Are The World 25 For Haiti - Official Video</ns0:title>
+		<ns0:link href="https://www.youtube.com/watch?v=Glny4jSciVI&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://m.youtube.com/details?v=Glny4jSciVI" rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/Glny4jSciVI" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="moderated" />
+		<ns2:accessControl action="commentVote" permission="denied" />
+		<ns2:accessControl action="videoRespond" permission="moderated" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:hd />
+		<ns2:rating numDislikes="27856" numLikes="487394" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="825766203" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/kffacxfA7G4</ns0:id>
+		<ns0:author>
+			<ns0:name>JustinBieberVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/JustinBieberVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/kffacxfA7G4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:27:34.000Z</ns0:updated>
+		<ns0:published>2010-02-19T08:11:38.000Z</ns0:published>
+		<ns3:rating average="2.2571356" max="5" min="1" numRaters="4847022" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="8938251" href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Justin Bieber performing Baby feat. Ludacris.
+				#VEVOCertified on April 25, 2010. http://www.youtube.com/vevocertified</ns4:description>
+			<ns4:title type="plain">Justin Bieber - Baby ft. Ludacris</ns4:title>
+			<ns2:duration seconds="225" />
+			<ns4:content duration="225" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/kffacxfA7G4?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="JustinBieberVEVO" ns2:type="partner">justinbiebervevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:52.500" url="http://i.ytimg.com/vi/kffacxfA7G4/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:56.250" url="http://i.ytimg.com/vi/kffacxfA7G4/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:52.500" url="http://i.ytimg.com/vi/kffacxfA7G4/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:48.750" url="http://i.ytimg.com/vi/kffacxfA7G4/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=kffacxfA7G4&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2010-02-19T08:11:38.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCHkj014U2CQ2Nv0UZeYpE_A</ns2:uploaderId>
+			<ns2:videoid>kffacxfA7G4</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Justin Bieber - Baby ft. Ludacris</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=kffacxfA7G4&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/kffacxfA7G4" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="3323681" numLikes="1523341" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="140339490" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/8aRor905cCw</ns0:id>
+		<ns0:author>
+			<ns0:name>FueledByRamen</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/FueledByRamen</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/8aRor905cCw?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:19:40.000Z</ns0:updated>
+		<ns0:published>2010-05-06T16:07:50.000Z</ns0:published>
+		<ns3:rating average="4.909592" max="5" min="1" numRaters="410186" rel="http://schemas.google.com/g/2005#overall" />
+		<ns2:recorded>2010-03-03</ns2:recorded>
+		<ns3:comments>
+			<ns3:feedLink countHint="144426" href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Subscribe for the latest music and videos from Fueled By Ramen: http://smarturl.it/fbryoutube
+
+				Â© WMG 2010. Travie McCoy's music video for 'Billionaire' featuring Bruno Mars from his album, Lazarus - available now on Decaydance / Fueled By Ramen. Visit http://traviemccoy.com for more!</ns4:description>
+			<ns4:title type="plain">Travie McCoy: Billionaire ft. Bruno Mars [OFFICIAL VIDEO]</ns4:title>
+			<ns2:duration seconds="214" />
+			<ns4:content duration="214" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/8aRor905cCw?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="FueledByRamen" ns2:type="partner">fueledbyramen</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:47" url="http://i.ytimg.com/vi/8aRor905cCw/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:53.500" url="http://i.ytimg.com/vi/8aRor905cCw/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:47" url="http://i.ytimg.com/vi/8aRor905cCw/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:40.500" url="http://i.ytimg.com/vi/8aRor905cCw/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=8aRor905cCw&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:uploaded>2010-05-06T16:07:50.000Z</ns2:uploaded>
+			<ns2:uploaderId>UClVrJwcIy7saPcGc1nct80A</ns2:uploaderId>
+			<ns2:videoid>8aRor905cCw</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Travie McCoy: Billionaire ft. Bruno Mars [OFFICIAL VIDEO]</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=8aRor905cCw&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/8aRor905cCw" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="denied" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="allowed" />
+		<ns2:accessControl action="syndicate" permission="denied" />
+		<ns2:rating numDislikes="9271" numLikes="400915" />
+	</ns0:entry>
+	<ns0:entry>
+		<ns2:statistics favoriteCount="0" viewCount="356061124" />
+		<ns0:category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video" />
+		<ns0:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" />
+		<ns0:id>http://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w</ns0:id>
+		<ns0:author>
+			<ns0:name>JustinBieberVEVO</ns0:name>
+			<ns0:uri>https://gdata.youtube.com/feeds/api/users/JustinBieberVEVO</ns0:uri>
+		</ns0:author>
+		<ns0:content src="https://www.youtube.com/v/_Z5-P9v3F8w?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" type="application/x-shockwave-flash" />
+		<ns0:updated>2013-01-30T12:27:10.000Z</ns0:updated>
+		<ns0:published>2010-05-27T22:07:29.000Z</ns0:published>
+		<ns3:rating average="3.7688177" max="5" min="1" numRaters="974780" rel="http://schemas.google.com/g/2005#overall" />
+		<ns3:comments>
+			<ns3:feedLink countHint="642134" href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w/comments" rel="http://gdata.youtube.com/schemas/2007#comments" />
+		</ns3:comments>
+		<ns4:group>
+			<ns4:keywords />
+			<ns4:description type="plain">Music video by Justin Bieber performing Never Say Never. (C) 2010 The Island Def Jam Music Group</ns4:description>
+			<ns4:title type="plain">Justin Bieber - Never Say Never ft. Jaden Smith</ns4:title>
+			<ns2:duration seconds="230" />
+			<ns4:content duration="230" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="https://www.youtube.com/v/_Z5-P9v3F8w?version=3&amp;f=standard&amp;d=AfL1Lw9WBZ1zie7Ev54rJAEO88HsQjpE1a8d1GxQnGDm&amp;app=youtube_gdata" ns2:format="5" />
+			<ns4:credit role="uploader" scheme="urn:youtube" ns2:display="JustinBieberVEVO" ns2:type="partner">justinbiebervevo</ns4:credit>
+			<ns4:thumbnail height="360" time="00:01:55" url="http://i.ytimg.com/vi/_Z5-P9v3F8w/0.jpg" width="480" />
+			<ns4:thumbnail height="90" time="00:00:57.500" url="http://i.ytimg.com/vi/_Z5-P9v3F8w/1.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:01:55" url="http://i.ytimg.com/vi/_Z5-P9v3F8w/2.jpg" width="120" />
+			<ns4:thumbnail height="90" time="00:02:52.500" url="http://i.ytimg.com/vi/_Z5-P9v3F8w/3.jpg" width="120" />
+			<ns4:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</ns4:category>
+			<ns4:player url="https://www.youtube.com/watch?v=_Z5-P9v3F8w&amp;feature=youtube_gdata_player" />
+			<ns4:restriction relationship="deny" type="country">DE</ns4:restriction>
+			<ns2:aspectRatio>widescreen</ns2:aspectRatio>
+			<ns2:uploaded>2010-05-27T22:07:29.000Z</ns2:uploaded>
+			<ns2:uploaderId>UCHkj014U2CQ2Nv0UZeYpE_A</ns2:uploaderId>
+			<ns2:videoid>_Z5-P9v3F8w</ns2:videoid>
+		</ns4:group>
+		<ns0:title type="text">Justin Bieber - Never Say Never ft. Jaden Smith</ns0:title>
+		<ns5:control>
+			<ns2:state name="restricted" reasonCode="limitedSyndication">Syndication of this video was restricted.</ns2:state>
+		</ns5:control>
+		<ns0:link href="https://www.youtube.com/watch?v=_Z5-P9v3F8w&amp;feature=youtube_gdata" rel="alternate" type="text/html" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w/responses" rel="http://gdata.youtube.com/schemas/2007#video.responses" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w/ratings" rel="http://gdata.youtube.com/schemas/2007#video.ratings" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w/complaints" rel="http://gdata.youtube.com/schemas/2007#video.complaints" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w/related" rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" />
+		<ns0:link href="https://gdata.youtube.com/feeds/api/videos/_Z5-P9v3F8w" rel="self" type="application/atom+xml" />
+		<ns2:accessControl action="comment" permission="allowed" />
+		<ns2:accessControl action="commentVote" permission="allowed" />
+		<ns2:accessControl action="videoRespond" permission="allowed" />
+		<ns2:accessControl action="rate" permission="allowed" />
+		<ns2:accessControl action="embed" permission="allowed" />
+		<ns2:accessControl action="list" permission="allowed" />
+		<ns2:accessControl action="autoPlay" permission="denied" />
+		<ns2:accessControl action="syndicate" permission="allowed" />
+		<ns2:rating numDislikes="300033" numLikes="674747" />
+	</ns0:entry>
+</ns0:feed>

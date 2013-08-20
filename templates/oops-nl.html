@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<script src="/scripts/actu_nl.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+OOPS!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/tmdb-form">back</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<div id='imholder'>
+		<img id="logo-img" src="/images/actuarize_logo.png" />
+	</div>
+	<h3 class="hasbeen">is having a hard time...</h3>
+	<br>
+	<br>
+	<div class="sayit">
+		<p>
+			We couldn't process those ages. I should have been more specific. Please enter the ages as integers separated by a space.
+		</p>
+		<br>
+		<p>
+			Like this:
+		</p>
+		<input type="text" name="males" value="23 49 12 6 108">
+
+	</div>
+	<br>
+	<br>
+	<a href="/act" class="button">Try Again</a>
+</div>
+
+{% endblock %}

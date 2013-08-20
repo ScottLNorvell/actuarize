@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	  <head>
+  	<link  rel="stylesheet" type="text/css" 
+    href="/stylesheets/main.css" />
+    <title>Index</title>
+
+  </head>
+  <body>
+	<ul>
+		{% for url,title in handlers %}
+	<li>
+		<a href='{{url}}'>{{title}}</a>
+		<br />
+	</li>
+	{% endfor %}
+	</ul>
+	</body>
+</html>

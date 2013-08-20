@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Flot Examples</title>
+		<link href="/stylesheets/layout.css" rel="stylesheet" type="text/css">
+		<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../excanvas.min.js"></script><![endif]-->
+		<script type="text/javascript" src="/js/flot/jquery.js"></script>
+		<script type="text/javascript" src="/js/flot/jquery.flot.js"></script>
+	</head>
+	<body>
+		<h2>Check out these Sweet Graphs!</h2>
+		<h4>Probability someone will die in x years:</h4>
+
+		<div id="placeholder" style="width:800px;height:450px;"></div>
+
+		<p>
+			<span class="probany" href="/actuary-api?prob=any&ages=%28lp0%0AF-29.0%0AaF-28.0%0AaF27.0%0AaF32.0%0AaF26.0%0AaF-24.0%0AaF32.0%0AaF-25.0%0AaF-27.0%0AaF25.0%0AaF28.0%0AaF-28.0%0AaF-29.0%0AaF-28.0%0AaF26.0%0AaF-30.0%0AaF-24.0%0AaF-27.0%0AaF-27.0%0AaF-25.0%0AaF-25.0%0AaF26.0%0AaF26.0%0AaF-28.0%0AaF-26.0%0AaF-28.0%0AaF-33.0%0AaF-34.0%0AaF23.0%0AaF31.0%0AaF30.0%0AaF35.0%0AaF-33.0%0AaF-32.0%0AaF-32.0%0AaF31.0%0AaF33.0%0AaF34.0%0AaF-43.0%0AaF-32.0%0AaF-30.0%0AaF-34.0%0AaF-30.0%0AaF34.0%0AaF30.0%0AaF-32.0%0AaF-31.0%0AaF-31.0%0AaF-53.0%0AaF-34.0%0AaF33.0%0AaF32.0%0AaF-34.0%0AaF-35.0%0AaF-31.0%0AaF-28.0%0AaF-23.0%0AaF33.0%0AaF-30.0%0AaF-33.0%0AaF34.0%0AaF35.0%0AaF34.0%0AaF-25.0%0AaF-34.0%0AaF35.0%0AaF-29.0%0AaF32.0%0AaF35.0%0AaF-29.0%0AaF-32.0%0AaF65.0%0AaF34.0%0AaF-33.0%0AaF-32.0%0AaF-29.0%0AaF-23.0%0AaF-29.0%0AaF59.0%0AaF33.0%0AaF-27.0%0AaF-29.0%0AaF-35.0%0AaF32.0%0AaF33.0%0AaF53.0%0AaF38.0%0AaF38.0%0AaF23.0%0AaF32.0%0AaF34.0%0AaF-34.0%0AaF-25.0%0AaF-31.0%0AaF-33.0%0AaF-24.0%0AaF-31.0%0AaF56.0%0AaF39.0%0AaF-26.0%0AaF-32.0%0AaF-66.0%0AaF24.0%0AaF34.0%0AaF-33.0%0AaF-30.0%0AaF34.0%0AaF38.0%0AaF-27.0%0AaF55.0%0AaF-27.0%0AaF32.0%0AaF36.0%0Aa."></span>
+		</p>
+		<h4>Probability everyone will die in x years:</h4>
+		
+		<div id="placeholder2" style="width:800px;height:450px;"></div>
+		<p>
+			
+			<span class="proball" href="/actuary-api?prob=all&ages=%28lp0%0AF-29.0%0AaF-28.0%0AaF27.0%0AaF32.0%0AaF26.0%0AaF-24.0%0AaF32.0%0AaF-25.0%0AaF-27.0%0AaF25.0%0AaF28.0%0AaF-28.0%0AaF-29.0%0AaF-28.0%0AaF26.0%0AaF-30.0%0AaF-24.0%0AaF-27.0%0AaF-27.0%0AaF-25.0%0AaF-25.0%0AaF26.0%0AaF26.0%0AaF-28.0%0AaF-26.0%0AaF-28.0%0AaF-33.0%0AaF-34.0%0AaF23.0%0AaF31.0%0AaF30.0%0AaF35.0%0AaF-33.0%0AaF-32.0%0AaF-32.0%0AaF31.0%0AaF33.0%0AaF34.0%0AaF-43.0%0AaF-32.0%0AaF-30.0%0AaF-34.0%0AaF-30.0%0AaF34.0%0AaF30.0%0AaF-32.0%0AaF-31.0%0AaF-31.0%0AaF-53.0%0AaF-34.0%0AaF33.0%0AaF32.0%0AaF-34.0%0AaF-35.0%0AaF-31.0%0AaF-28.0%0AaF-23.0%0AaF33.0%0AaF-30.0%0AaF-33.0%0AaF34.0%0AaF35.0%0AaF34.0%0AaF-25.0%0AaF-34.0%0AaF35.0%0AaF-29.0%0AaF32.0%0AaF35.0%0AaF-29.0%0AaF-32.0%0AaF65.0%0AaF34.0%0AaF-33.0%0AaF-32.0%0AaF-29.0%0AaF-23.0%0AaF-29.0%0AaF59.0%0AaF33.0%0AaF-27.0%0AaF-29.0%0AaF-35.0%0AaF32.0%0AaF33.0%0AaF53.0%0AaF38.0%0AaF38.0%0AaF23.0%0AaF32.0%0AaF34.0%0AaF-34.0%0AaF-25.0%0AaF-31.0%0AaF-33.0%0AaF-24.0%0AaF-31.0%0AaF56.0%0AaF39.0%0AaF-26.0%0AaF-32.0%0AaF-66.0%0AaF24.0%0AaF34.0%0AaF-33.0%0AaF-30.0%0AaF34.0%0AaF38.0%0AaF-27.0%0AaF55.0%0AaF-27.0%0AaF32.0%0AaF36.0%0Aa."></span>
+		</p>
+		
+		<script type="text/javascript" src="/scripts/test_flot2.js"></script>
+
+	</body>
+</html>

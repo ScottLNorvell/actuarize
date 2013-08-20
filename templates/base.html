@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link   href="/stylesheets/main.css" rel="stylesheet">
+		<link href="/css/custom-theme/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		
+		{% block style %}
+		
+		{% endblock %}
+		
+		
+		
+		<script src="/js/jquery-1.9.1.js"></script>
+		<script src="/js/jquery-ui-1.10.2.custom.js"></script>
+		
+		{% block script %}
+		
+		<script src="/scripts/{{script}}.js"></script>
+		{% endblock %}
+
+		<title>{% block title %}{% endblock %}</title>
+	</head>
+
+	<body>
+		<div class="outer">
+		<div class="login-area">
+			{% block login %}
+
+			<a class="login-link" href="/login">login</a>
+			|
+			<a class="login-link" href="/signup">signup</a>
+			|
+			<a class="login-link" href="/">index</a>
+
+			{% endblock %}
+		</div>
+
+		<div class="main-title">
+			{% block heading %}
+
+			Actuarize Your Friends
+
+			{% endblock %}
+
+		</div>
+
+		<div id="content">
+			{% block content %}
+			{% endblock %}
+		</div>
+</div>
+	</body>
+
+</html>
+

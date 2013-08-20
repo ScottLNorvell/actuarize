@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<script src="/scripts/post-posted.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+Posted
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="{{backlink}}">back</a>
+|
+<a class="login-link" href="/">home</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<h3 class="hasbeen">Congratulations! You just posted the</h3>
+	<div id='imholder'>
+		<img id="logo-img" src="/images/actuarize_logo.png" />
+	</div>
+	<h3 class="hasbeen">page for {{name}}!</h3>
+	<br>
+	<br>
+	<div class="sayit">
+		<h3> Check it out <a href="http://www.facebook.com/{{fb_id}}" target="_blank">here</a>! </h3>
+
+		<p>
+			{{error}}
+		</p>
+	</div>
+</div>
+
+{% endblock %}

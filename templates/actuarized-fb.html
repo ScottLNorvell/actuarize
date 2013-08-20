@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block style %}
+
+<link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+{% endblock %}
+
+{% block script %}
+
+<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/scripts/{{script}}.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+{{name}} has been Actuarized!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/">Home</a>
+|
+<a class="login-link" href="/tmdb-form">Actuarize a Movie</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<h3 class="hasbeen" >{{name}} has been</h3>
+	<div id='imholder'>
+		<a href="/" ><img id="logo-img" title="Try it Yourself!" src="/images/actuarized_logo.png" /></a>
+	</div>
+	<br>
+	<div id="tabs">
+		<ul>
+			<li>
+				<a href="#actutab">Actuarized!</a>
+			</li>
+
+			<li>
+				<a href="/actu-graph">Sweet Graphs!</a>
+				<span class="probany" href="/actuary-api?prob=any&{{age_url}}"></span>
+				<span class="proball" href="/actuary-api?prob=all&{{age_url}}"></span>
+			</li>
+			<li>
+				<a href="#dial">More Fun!</a>
+				<span class="probs" href="/actu-slider?{{age_url}}&years="></span>
+			</li>
+			<li>
+				<a href="#facebook">Post to Facebook!</a>
+			</li>
+
+		</ul>
+		<div id="actutab">
+			<div class="actutext">
+				<h2>We were able to analyze {{num}} of {{pronoun}} friends from Facebook:</h2>
+				<p>
+					These people:
+				</p>
+				<div id="gallery">
+					<ul>
+						{% for big_url,sm_url,name,uid in ids %}
+						<li>
+							<a href="{{big_url}}" rel="prettyPhoto[gallery1]" title="Connect with &lt;a href=&#x27;http://www.facebook.com/{{uid}}&#x27; target=&#x27;_blank&#x27; &gt;{{name}}&lt;/a&gt;!" ><img src="{{sm_url}}"  alt="{{name}}" title="{{name}}" /></a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<p>
+					There is a 5% chance that one of {{pronoun}} friends will die within {{sy05}} years (by {{sd05}}).
+				</p>
+				<p>
+					There is a 50% chance that someone will die within {{sy50}} years (by {{sd50}}).
+				</p>
+				<p>
+					By {{sd95}}*, there is a great chance (95%) that someone will be dead.
+				</p>
+				<p class="actucomment">
+					*That's {{sy95}} years away.
+				</p>
+				<br />
+				{% if ey05 %}
+
+				<p>
+					There is a 5%  chance that all of {{pronoun}} friends will be dead {{ey05}} years (by {{ed05}}).
+				</p>
+				<p>
+					There is a 50% chance that everyone will die within {{ey50}} years (by {{ed50}}).
+				</p>
+				<p>
+					By {{ed95}}*, there is a great chance (95%) that everyone will be dead.
+				</p>
+				<p class="actucomment">
+					*That's {{ey95}} years away.
+				</p>
+				<br />
+				{% endif %}
+
+				<p>
+					Will {{name}}'s friends live see the <a class="login-link" href="http://en.wikipedia.org/wiki/Technological_singularity" target="_blank">Singularity</a>?
+				</p>
+				{% if evprintable %}
+				<p>
+					Probability of all dying by 2045: {{evprintable}}%
+				</p>
+				{% endif %}
+				<p>
+					Probability of a death by 2045: {{smprintable}}%
+				</p>
+			</div>
+		</div>
+		<div id="dial">
+
+			<h3>Have a LOT of fun playing with this slider!</h3>
+
+			<p>
+				<label for="amount">Number of Years:</label>
+				<input type="text" id="amount" />
+			</p>
+
+			<div id="slider"></div>
+
+			<div id="slider-results"></div>
+
+		</div>
+		<div id="facebook">
+			<h3>Tell Your Friends on Facebook!</h3>
+			<p>
+				Did you enjoy being actuarized? Spread the actuarize love. Let your friends actuarize YOU for a change!
+			</p>
+			<a class="button" id="button" href="{{post_url}}">Do It!</a>
+		</div>
+	</div>
+
+	<div class="actudisclaim">
+		<p>
+			This website is for entertainment purposes only and does not produce highly-scientific results.
+			The analysis is based on the script
+			<a href="http://blog.xkcd.com/2012/07/12/a-morbid-python-script/" target="_blank">actuary.py</a>
+			from the geniuses at
+			<a href="http://xkcd.com/" target="_blank">xkcd</a>.
+			It simply estimates probability of mortality based on standard actuarial tables for your
+			friends who provide full birthdates (with year). Many factors can change any person's expected lifespan, including
+			individual health factors, lifestyle and personal genetic makeup. Morbid, maybe. Based on science, sure. But, in general,
+			this is for fun and the analytical rigor is low. Besides, none of this matters if you plan to
+			<a href="http://en.wikipedia.org/wiki/Technological_singularity" target="_blank">live past 2045</a>.
+			Learn more about actuarial/life tables
+			<a href="http://en.wikipedia.org/wiki/Life_table" target="_blank">here</a>.
+		</p>
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<script src="/scripts/post-posted.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+Actuary!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="{{backlink}}">back</a>
+|
+<a class="login-link" href="/">home</a>
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+{% block content %}
+<div class="main-content">
+	<h3 class="hasbeen">You are about to post {% if name %}{{name}}'s{% else %}this{% endif %}</h3>
+	<div id='imholder'>
+		<img id="logo-img" src="/images/actuarize_logo.png" />
+	</div>
+	<h3 class="hasbeen">page to Facebook</h3>
+	<br>
+	<br>
+	<form method="post">
+
+		<h3 class="sayit">Say something about it:</h3>
+		<br>
+		<input id="post-text" type="text" name="message">
+		<br />
+		<br />
+		<input class="button" type="submit" value="Post to Facebook!">
+
+	</form>
+</div>
+{% endblock %}
+

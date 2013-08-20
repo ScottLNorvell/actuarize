@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+Actuary!
+
+{% endblock %}
+
+{% block login %}
+
+{% endblock %}
+
+{% block content %}
+{% block heading %}
+
+Actuarize Your Movies
+
+{% endblock %}
+
+
+<h3>Did you mean one of these?</h3>
+<ul>
+{% for movie,year,url in movielist %}
+
+<li><a href="{{url}}">{{movie}} -- ({{year}})</a></li>
+
+{% endfor %}
+</ul>
+<h3><a href="/tmdb-form">{{message}}</a>?</h3>
+{% endblock %}
+

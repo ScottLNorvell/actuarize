@@ -1,0 +1,44 @@
+<!-- You did it test page for rendering what happens at post -->
+
+{% extends "base.html" %}
+
+{% block style %}
+
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}
+
+{% block title %}
+
+YOU DID IT!
+
+{% endblock %}
+
+{% block login %}
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<div id='imholder'>
+		<img id="logo-img" src="/images/actuarize_logo.png" />
+	</div>
+	<h3 class="hasbeen">YOU DID IT!!</h3>
+	<br>
+	<br>
+	<p class="sayit">
+		I'm so proud of you! Here is your Test Text:
+	</p>
+	<p class="sayit" >
+		{{test_text}}
+	</p>
+
+</div>
+
+{% endblock %}

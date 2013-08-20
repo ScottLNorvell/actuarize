@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/css/custom-theme/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<link   href="/stylesheets/main.css" rel="stylesheet">
+
+		<script src="/js/jquery-1.9.1.js"></script>
+		<script src="/js/jquery-ui-1.10.2.custom.js"></script>
+
+		<title> Post My Actuarize! </title>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+
+		<script src="/scripts/fbinit.js"></script>
+		<div class="fb_login_area">
+			<div id='imholder'>
+			<img id="logo-img" src="/images/actuarize_logo.png" /></div>
+			<div id="fblogin">
+				<h2>Post this page to Facebook!</h2>
+				<p>
+					You must log in and accept the permissions to use this feature.
+				</p>
+				<button class="fbloginbutt" onclick="login('{{url}}')">
+					Post to Facebook!
+				</button>
+
+			</div>
+		</div>
+	</body>
+</html>

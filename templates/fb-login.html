@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/css/custom-theme/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<link href="/stylesheets/main.css" rel="stylesheet">
+
+		<script src="/js/jquery-1.9.1.js"></script>
+		<script src="/js/jquery-ui-1.10.2.custom.js"></script>
+
+		<title> Get Me Actuarized! </title>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+
+		<script src="/scripts/fbinit.js"></script>
+		<br><br><br>
+		<div class="fb_login_area">
+			<div id="fblogin">
+				<h3 class="hasbeen">Welcome to</h3>
+				<div id='imholder'>
+					<img id="logo-img" src="/images/actuarize_logo.png" />
+				</div>
+				<h3 class="hasbeen">for Facebook</h3>
+				<p>
+					You must log in and accept the permissions to use this feature.
+				</p>
+				<p>
+					Don't worry, we won't post without asking you first.
+				</p>
+				<button class="fbloginbutt" data-url="{{url}}" onclick=login("{{url}}") >
+					Log in with Facebook!
+				</button>
+
+			</div>
+		</div>
+		<div id="lightbox-holder"></div>
+	</body>
+</html>

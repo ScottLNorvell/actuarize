@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+
+Posted
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/tmdb-actuarized/{{movie_id}}">back</a>
+|
+<a class="login-link" href="/">home</a>
+
+{% endblock %}
+
+{% block heading %}
+		
+Your link has been posted!
+		
+{% endblock %}
+
+{% block content %}
+
+<p><a href="http://www.facebook.com/{{fb_id}}" target="_blank">Check it out here</a>!</p>
+
+<p>{{error}}</p>
+
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block script %}
+
+<script src="/scripts/actu_nl.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+Actuary!
+
+{% endblock %}
+
+{% block login %}
+
+<a class="login-link" href="/">Home</a>
+|
+<a class="login-link" href="/tmdb-form">Actuarize a Movie</a>
+
+{% endblock %}
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+	<h3 class="hasbeen">Have some fun with</h3>
+	<div id='imholder'>
+		<img id="logo-img" src="/images/actuarize_logo.png" />
+	</div>
+
+	<br>
+	<br />
+	<form method="post">
+		<div class="sayit">
+			<p>
+				Enter the ages of your female friends:
+			</p>
+			<input type="text" name="females">
+			<p>
+				Enter the ages of your male friends:
+			</p>
+			<input type="text" name="males">
+			<br />
+			<br />
+			<input class="button" type="submit" value="Actuarize!">
+		</div>
+	</form>
+</div>
+
+{% endblock %}
+

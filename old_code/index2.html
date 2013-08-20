@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+
+{% block style %}
+
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+
+{% endblock %}
+
+{% block script %}
+
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/scripts/{{script}}.js"></script>
+
+{% endblock %}
+
+{% block title %}
+
+Actuarize!
+
+{% endblock %}
+
+{% block login %}
+
+{% endblock %}
+
+{% block heading %}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="main-content">
+	<img id="logo-img" src="/images/actuarize_logo.png" />
+	<br>
+	<div id="tabs">
+		<ul>
+			<li>
+				<a href="#about">What?</a>
+			</li>
+
+			<li>
+				<a href="#facebook">Actuarize your Facebook friends!</a>
+			</li>
+			<li>
+				<a href="#movie">Your favorite movie!</a>
+			</li>
+			<li>
+				<a href="#play">Play with it!</a>
+			</li>
+
+			<li>
+				<a href="#outta_here">No Way!</a>
+			</li>
+		</ul>
+		<div id="about">
+			<h2>Welcome to Actuarize.appspot.com!</h2>
+
+			<p>
+				Actuarize is a made-up portmaneau derived from the word <em>actuary</em> and the suffix <em>-ize</em>.
+				Through actuarial tables, an <a href="http://www.thefreedictionary.com/actuary" target="_blank">actuary</a>
+				can compute the probability of death based on the age and sex of a person.
+				The suffix <em>-ize</em> is a <a href="http://en.wikipedia.org/wiki/Morpheme#Free_vs._bound">derivational morpheme</a>
+				that changes a base word (<em>noun</em> or <em>adjective</em>) into a <em>verb</em>.
+			</p>
+			<p>
+				For our purposes, to actuarize is "to calculate the probability a person or group of people will die by a certain date".
+			</p>
+			<p>
+				Sound like fun? Click on the tabs to the right. Play around.
+			</p>
+		</div>
+		<div id="play">
+			<h3> Play with the Actuarizer! </h3>
+			<p>
+				Enter the ages of your male and female friends. Actuarize the people in the room. Actuarize your family! Actuarize yourself!
+			</p>
+			<a class="button" id="button" href="/act">GO</a>
+			<br>
+			<br>
+			<p>
+				<small> - Powered by <a href="/" target="_blank">actuarize.appspot.com</a> (and you!)</small>
+
+			</p>
+		</div>
+		<div id="facebook">
+			<h3> Actuarize your Facebook friends! </h3>
+			<p>
+				The actuarizer will analyze all your friends who are comfortable disclosing their age to you on Facebook.
+			</p>
+			<a class="button" id="button" href="/fbactuarized">GO</a>
+			<br>
+			<br>
+			<p>
+				<small> - Powered by <a href="http://www.facebook.com/" target="_blank">facebook.com</a></small>
+
+			</p>
+		</div>
+		<div id="movie">
+			<h3> Actuarize your favorite movies! </h3>
+			<p>
+				Actuarize the actors in your favorite movie. Find out which ones are already dead...
+			</p>
+			<a class="button" id="button" href="/tmdb-form">GO</a>
+			<br>
+			<br>
+			<p>
+				<small> - Powered by <a href="http://www.themoviedb.org/" target="_blank">themoviedb.org</a></small>
+
+			</p>
+		</div>
+		<div id="outta_here">
+			<h3> That's depressing, get me out of here!</h3>
+			<p>
+				Okay... Watch a kitten video instead.
+			</p>
+			
+				<a class="button" href="http://youtu.be/HECa3bAFAYk" rel="prettyPhoto">One</a> 
+				
+					<a class="button" href="http://youtu.be/gppbrYIcR80" rel="prettyPhoto">Two</a> 
+				
+					<a class="button" href="http://youtu.be/0Bmhjf0rKe8" rel="prettyPhoto">Three</a>
+				
+			<br>
+			<br>
+			<p>
+				<small> - Powered by <a href="http://www.youtube.com/" target="_blank">youtube.com</a></small>
+
+			</p>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
