@@ -2,6 +2,8 @@
 # compiled python
 *.py[co]
 
+# Secret Files
+facebook_secrets.py
 
 # Packages
 *.egg

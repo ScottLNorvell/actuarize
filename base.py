@@ -10,21 +10,21 @@ from user_db import User
 from webapp2_extras import sessions
 import time
 
-
+from facebook_secrets import FB_SECRETS 
 #from signup import UserInfo
 
 
 ###############################################
 ### info for actuarize 2
 ###############################################
-FACEBOOK_APP_ID = "337031986416801"
-FACEBOOK_APP_SECRET = "b0e1f9ae4d5ca035d426395f8e8b15d3"
+FACEBOOK_APP_ID = FB_SECRETS['real_id']
+FACEBOOK_APP_SECRET = FB_SECRETS['real_secret']
 
 ###############################################
 ### info for fbtest3500
 ###############################################
-#FACEBOOK_APP_ID = "624790460881207"
-#FACEBOOK_APP_SECRET = "f9ada0d17315bf760e4fba34d2366fec"
+# FACEBOOK_APP_ID = FB_SECRETS['test_id']
+# FACEBOOK_APP_SECRET = FB_SECRETS['test_secret']
 
 ###############################################
 ### Create Environment and basic handler funct
