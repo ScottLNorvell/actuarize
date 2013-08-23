@@ -21,7 +21,8 @@ nohup.out
 # Installer logs
 pip-log.txt
 
-
+# Code we don't need
+old_code/
 
 #Eclipse junk
 .project
