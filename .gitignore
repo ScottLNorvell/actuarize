@@ -21,10 +21,7 @@ nohup.out
 # Installer logs
 pip-log.txt
 
-# modules
-tmdb3/
-unidecode/
-facebook.py
+
 
 #Eclipse junk
 .project
