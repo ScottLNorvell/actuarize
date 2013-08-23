@@ -4,10 +4,11 @@ import re
 from urllib import urlencode
 import json
 from unidecode import unidecode
+from facebook_secrets import FB_SECRETS
 
 def init_movie():
     #set_cache('null')
-    set_key('03675ab5c6854118c952ac7401c0c6b5')
+    set_key(FB_SECRETS['tmdb_key'])
 
 def calculate_age(born):
     today = datetime.date.today()

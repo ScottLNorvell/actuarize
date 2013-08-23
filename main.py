@@ -8,9 +8,10 @@ from fb_actuarize import FBActuarizedHandler, FBLoginHandler, FBActuPermaLinkHan
 from mv_actuarize import MVActuarizedHandler, MVFormHandler, MVActuPermaLinkHandler, MVPostHandler, MVPostedHandler, MVPostLoginHandler
 from api_handlers import MVAPIHandler, ActuAPIHandler, GraphActuHandler, ActuSliderHandler, StatusLightboxHandler
 from base import TestHandler
+from facebook_secrets import FB_SECRETS 
 
 config = {}
-config['webapp2_extras.sessions'] = dict(secret_key='bergdorfsex45')
+config['webapp2_extras.sessions'] = dict( secret_key = FB_SECRETS['cookie_key'] )
 
 ID_RE = '([0-9]+)'
        
