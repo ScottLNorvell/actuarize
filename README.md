@@ -8,5 +8,5 @@ Sound like fun? Try it out [here](http://actuarize.appspot.com/). You can actuar
 
 
 
-This website is for entertainment purposes only and does not produce highly-scientific results. The analysis is based on the script actuary.py from the geniuses at xkcd. It simply estimates probability of mortality based on standard actuarial tables. 
+This website is for entertainment purposes only and does not produce highly-scientific results. The analysis is based on the script [actuary.py](http://blog.xkcd.com/2012/07/12/a-morbid-python-script/) from the geniuses at [xkcd](http://xkcd.com/). It simply estimates probability of mortality based on standard actuarial tables. 
 
